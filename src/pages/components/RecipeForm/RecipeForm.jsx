@@ -8,6 +8,9 @@ export const RecipeForm = () => {
 
     return (
         <form className={style["recipe-form"]} style={{ display: toggle ? "flex" : "none" }} ref={formRef}>
+            <span className="material-symbols-outlined" onClick={() => setToggle(false)}>
+                cancel
+            </span>
             <h3>{modifySingleRecipe ? "Modify Recipe" : "Add New Recipe"}</h3>
             <div className={style["form-input"]}>
                 <label>Name of recipe: </label>
@@ -20,6 +23,10 @@ export const RecipeForm = () => {
             <div className={style["form-input"]}>
                 <label>Ingredients of Recipe: </label>
                 <input name="ingredients" type="text" placeholder="Ingredients of Recipe" value={formValues.ingredients} onChange={e => setRecipeValues(e, setFormValues)} />
+            </div>
+            <div className={style["form-input"]}>
+                <label>Instructions of Recipe: </label>
+                <textarea className={style.instructions} name="instructions" placeholder="Instructions of Recipe" value={formValues.instructions} onChange={e => setRecipeValues(e, setFormValues)}></textarea>
             </div>
             <div>
                 {modifySingleRecipe ? <input type="submit" value="Modify Recipe" style={{ marginBlock: "1rem" }} onClick={(e) => editRecipe(e, modifySingleRecipe, formRef, formValues, recipe, setRecipe, setToggle)} /> :

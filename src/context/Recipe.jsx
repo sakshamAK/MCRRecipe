@@ -14,9 +14,10 @@ export const RecipeProvider = ({ children }) => {
     const formRef = useRef(null);
     const [formValues, setFormValues] = useState({
         name: '',
-        ingredients: '',
+        ingredients: [],
         cuisine: '',
-        id: ''
+        id: '',
+        instructions: []
     });
 
     return (
