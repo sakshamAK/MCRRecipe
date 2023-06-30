@@ -29,7 +29,7 @@ export const Landing = () => {
             <h1>All Recipies: </h1>
             <div className={style["recipies-container"]}>
                 {recipe.map(item => <RecipeCard key={item.id} item={item} />)}
-                <span className={`${style.addRecipe} material-symbols-outlined`} onClick={() => { setToggle(true); setModifySingleRecipe(false) }}>
+                <span className={`${style.addRecipe} material-symbols-outlined`} style={{ fontSize: "3rem" }} onClick={() => { setToggle(true); setModifySingleRecipe(false) }}>
                     add_circle
                 </span>
             </div>
