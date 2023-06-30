@@ -1,0 +1,27 @@
+.recipe-form {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 5px 2px black;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    gap: 1rem;
+    z-index: 999;
+}
+
+.recipe-form input[type="text"] {
+    padding: 0.5rem 1rem;
+    margin-inline: 0.2rem;
+}
+
+.recipe-form input[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+}

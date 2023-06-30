@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Bolognese",
+    "ingredients": [
+      "spaghetti",
+      "ground beef",
+      "onion",
+      "garlic",
+      "tomato sauce",
+      "tomato paste",
+      "dried oregano",
+      "dried basil",
+      "salt",
+      "pepper"
+    ],
+    "instructions": [
+      "1. Cook spaghetti according to package instructions.",
+      "2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and onion is translucent.",
+      "3. Add tomato sauce, tomato paste, dried oregano, dried basil, salt, and pepper to the skillet. Simmer for 20 minutes, stirring occasionally.",
+      "4. Serve the sauce over cooked spaghetti."
+    ],
+    "servings": 4,
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "cuisine": "Italian",
+    "imgSrc": "https://picsum.photos/400/400"
+  },
+  {
+    "id": 2,
+    "name": "Chicken Stir Fry",
+    "ingredients": [
+      "boneless chicken breasts",
+      "broccoli florets",
+      "carrot",
+      "red bell pepper",
+      "soy sauce",
+      "sesame oil",
+      "garlic",
+      "ginger",
+      "cornstarch",
+      "vegetable oil"
+    ],
+    "instructions": [
+      "1. Slice chicken breasts into thin strips.",
+      "2. In a small bowl, whisk together soy sauce, sesame oil, garlic, ginger, and cornstarch to make the sauce.",
+      "3. Heat vegetable oil in a large skillet or wok over medium-high heat.",
+      "4. Add chicken to the skillet and stir-fry until cooked through. Remove from the skillet and set aside.",
+      "5. In the same skillet, stir-fry broccoli, carrot, and red bell pepper until crisp-tender.",
+      "6. Return chicken to the skillet and pour the sauce over the ingredients. Stir-fry for another 2 minutes.",
+      "7. Serve hot over rice or noodles."
+    ],
+    "servings": 3,
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "cuisine": "Chinese",
+    "imgSrc": "https://picsum.photos/401/401"
+  },
+  {
+    "id": 3,
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "all-purpose flour",
+      "baking soda",
+      "salt",
+      "unsalted butter",
+      "granulated sugar",
+      "brown sugar",
+      "vanilla extract",
+      "eggs",
+      "chocolate chips"
+    ],
+    "instructions": [
+      "1. Preheat oven to 375°F (190°C).",
+      "2. In a small bowl, whisk together flour, baking soda, and salt.",
+      "3. In a large bowl, cream together butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy.",
+      "4. Beat in eggs, one at a time, until well combined.",
+      "5. Gradually add the flour mixture to the butter mixture, stirring until just combined.",
+      "6. Stir in chocolate chips.",
+      "7. Drop rounded tablespoons of dough onto ungreased baking sheets.",
+      "8. Bake for 9 to 11 minutes or until golden brown.",
+      "9. Let the cookies cool on the baking sheets for a few minutes, then transfer to wire racks to cool completely."
+    ],
+    "servings": 24,
+    "prepTime": "20 minutes",
+    "cookTime": "10 minutes",
+    "cuisine": "American",
+    "imgSrc": "https://picsum.photos/402/402"
+  }
+]

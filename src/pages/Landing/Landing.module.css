@@ -1,0 +1,51 @@
+.recipies-container {
+    display: flex;
+    gap: 2rem;
+    margin-block: 2rem;
+    flex-wrap: wrap;
+}
+
+.landing hr {
+    width: 4rem;
+    border: 1px solid rgba(211, 211, 211, 0.815);
+}
+
+.landing {
+    padding: 2rem;
+}
+
+.landing-search {
+    display: flex;
+    align-items: center;
+    margin-block-end: 2rem;
+    border: 1px solid lightgray;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+.landing-search input[type="text"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-right: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-options {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-options div * {
+    user-select: none;
+    cursor: pointer;
+}
+
+.addRecipe {
+    align-self: center;
+    font-size: 3rem;
+    color: lightgray;
+    cursor: pointer;
+}
