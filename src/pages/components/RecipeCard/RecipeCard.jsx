@@ -8,7 +8,7 @@ export const RecipeCard = ({ item }) => {
     return (
         <div style={{ display: "flex", position: "relative" }}>
             <div className={style.buttons}>
-                <span className="material-symbols-outlined" onClick={() => { setToggle(true); setModifySingleRecipe(true); setFormValues(p => ({ ...p, name, cuisine, ingredients, id })) }}>
+                <span className="material-symbols-outlined" onClick={() => { setToggle(true); setModifySingleRecipe(true); setFormValues(p => ({ ...p, name, cuisine, ingredients, id, imgSrc })) }}>
                     edit
                 </span>
                 <span className="material-symbols-outlined" onClick={() => setRecipe(p => { const newList = p.filter(q => q.id !== id); localStorage.setItem("data", JSON.stringify(newList)); return newList })}>
