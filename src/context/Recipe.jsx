@@ -17,7 +17,8 @@ export const RecipeProvider = ({ children }) => {
         ingredients: [],
         cuisine: '',
         id: '',
-        instructions: []
+        instructions: [],
+        imgSrc: ''
     });
 
     return (

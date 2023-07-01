@@ -35,7 +35,7 @@ export const submitRecipe = (e, formRef, setRecipe, setToggle) => {
     newData = { ...newData, ingredients: newData.ingredients.split(" ") }
     newData = { ...newData, instructions: newData.instructions.split("\n") };
     console.log(newData);
-    const newRecipe = { ...newData, id: Math.floor(Math.random() * (20 - 5) + 5), imgSrc: "https://picsum.photos/400/400" }
+    const newRecipe = { ...newData, id: Math.floor(Math.random() * (20 - 5) + 5) }
     setRecipe(p => {
         const newList = [...p, newRecipe];
         localStorage.setItem("data", JSON.stringify(newList));

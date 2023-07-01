@@ -13,6 +13,10 @@ export const RecipeForm = () => {
             </span>
             <h3>{modifySingleRecipe ? "Modify Recipe" : "Add New Recipe"}</h3>
             <div className={style["form-input"]}>
+                <label>Image of recipe: </label>
+                <input name="imgSrc" type="text" placeholder="Image Link of recipe" value={formValues.imgSrc} onChange={e => setRecipeValues(e, setFormValues)} />
+            </div>
+            <div className={style["form-input"]}>
                 <label>Name of recipe: </label>
                 <input name="name" type="text" placeholder="Name of recipe" value={formValues.name} onChange={e => setRecipeValues(e, setFormValues)} />
             </div>
